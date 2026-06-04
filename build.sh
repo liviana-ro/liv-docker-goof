@@ -12,4 +12,5 @@ for f in $(ls *Dockerfile); do
   docker build -q -t ${tag} . ${file}
 done
 // comment
+// comment2
 popd >/dev/null
