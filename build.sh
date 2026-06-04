@@ -11,5 +11,5 @@ for f in $(ls *Dockerfile); do
   echo Building ${tag}...
   docker build -q -t ${tag} . ${file}
 done
-
+// comment
 popd >/dev/null
